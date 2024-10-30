@@ -588,6 +588,22 @@ video {
   height: 0.125rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
 .w-3\/4 {
   width: 75%;
 }
@@ -750,6 +766,34 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pr-24 {
+  padding-right: 6rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-36 {
+  padding-right: 9rem;
+}
+
+.pr-40 {
+  padding-right: 10rem;
+}
+
+.pr-96 {
+  padding-right: 24rem;
+}
+
+.pr-60 {
+  padding-right: 15rem;
+}
+
+.pr-64 {
+  padding-right: 16rem;
 }
 
 .text-center {
