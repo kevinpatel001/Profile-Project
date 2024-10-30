@@ -156,7 +156,7 @@
     <div class=" flex flex-col items-center " id="contact">
 
 
-        <div class="flex" id="contact">
+        <div class="flex " id="contact">
 
             <!-- SECTION1  -->
             <div class=" items-center justify-center  flex" id="contact">
@@ -176,10 +176,10 @@
 
                 </div>
 
-                <form action="#" method="POST" class="space-y-4 pr-64 ">
+                <form id="formdata" method="POST" class="space-y-4 pr-64  ">
                     <div class="pl-32 pt-10">
                         <label for="name" class="block mb-2 text-sm font-medium text-white dark:text-white">Name</label>
-                        <input id="name" type="text"
+                        <input id="name" type="text" required
                             class="block p-2.5 w-96 text-sm text-white bg-black rounded-lg border
                              border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600
                               dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -190,7 +190,7 @@
                     <div class="pl-32 ">
                         <label for="email"
                             class="block mb-2 text-sm font-medium text-white dark:text-white">Email</label>
-                        <input id="email" type="email"
+                        <input id="email" type="email" required
                             class="block p-2.5 w-96 text-sm text-white bg-black rounded-lg border
                              border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600
                               dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -200,7 +200,7 @@
                     <div class="pl-32 ">
                         <label for="subject" class="block mb-2 text-sm font-medium text-white dark:text-white">
                             Subject</label>
-                        <input id="subject" rows="1"
+                        <input id="subject" rows="1" required
                             class="block p-2.5 w-96 text-sm text-white bg-black rounded-lg border
                              border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600
                               dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -213,16 +213,27 @@
 
                         <label for="message" class="block mb-2 text-sm font-medium text-white dark:text-white">Your
                             message</label>
-                        <textarea id="message" rows="4"
+                        <textarea id="message" rows="4" required
                             class="block p-2.5 w-96 text-sm text-white bg-black rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             placeholder="Write your thoughts here..."></textarea>
 
 
                     </div>
 
+                    <div class="text-center  pl-28 pt-7 l ">
 
+                        <button 
+                            class="bg-black text-gray-400 font-bold py-2 px-36 w-80 rounded-full inline-flex items-center">
+                            <span>Send</span>
+
+                        </button>
+                    </div>
 
                 </form>
+
+
+
+
 
             </div>
 
